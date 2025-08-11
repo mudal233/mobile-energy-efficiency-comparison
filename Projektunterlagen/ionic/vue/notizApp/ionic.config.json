@@ -1,0 +1,7 @@
+{
+  "name": "notizApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}

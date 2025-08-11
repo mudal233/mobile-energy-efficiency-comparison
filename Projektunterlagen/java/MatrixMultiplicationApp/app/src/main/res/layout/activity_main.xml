@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diese App multipliziert Matrizen in mehreren Durchläufen mit Multi-Threading und zeigt die Laufzeit (java native version)."
+        android:textSize="16sp"
+        android:paddingBottom="20dp" />
+
+    <EditText
+        android:id="@+id/inputMultiplicationCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Anzahl der Multiplikationen"
+        android:inputType="number"
+        android:padding="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Matrix multiplizieren"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/multiplicationCountText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Anzahl Berechnungen: 0"
+        android:textSize="18sp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laufzeit: 0.0 s"
+        android:textSize="18sp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berechnungszeit: -- ms"
+        android:textSize="18sp"
+        android:paddingTop="10dp" />
+
+    <TextView
+        android:id="@+id/operationsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durchgeführte Multiplikationen: --"
+        android:textSize="18sp"
+        android:paddingTop="10dp" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+write_into_file: true
+
+buffers: {
+  size_kb: 524288
+  fill_policy: DISCARD
+}
+
+data_sources: {
+    config {
+        name: "android.power"
+        android_power_config {
+            battery_poll_ms: 250
+ 	collect_power_rails: true
+            battery_counters: BATTERY_COUNTER_CAPACITY_PERCENT
+            battery_counters: BATTERY_COUNTER_CHARGE
+            battery_counters: BATTERY_COUNTER_CURRENT
+            battery_counters: BATTERY_COUNTER_VOLTAGE
+        }
+    }

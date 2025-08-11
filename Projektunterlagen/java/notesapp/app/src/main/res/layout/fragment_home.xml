@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- RecyclerView full screen -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:clipToPadding="false" />
+
+    <!-- FAB container bottom-end -->
+    <LinearLayout
+        android:id="@+id/fab_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp">
+
+        <!-- Manual Add FAB -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabManualAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:contentDescription="Manuell Notiz erstellen"
+            app:backgroundTint="@color/purple_500" />
+
+        <!-- Dummy Generator FAB -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAddNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:src="@android:drawable/ic_input_add"
+            android:contentDescription="Dummy-Notizen erstellen"
+            app:backgroundTint="@color/purple_500" />
+
+        <!-- Delete FAB (placeholder, no delete yet) -->
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabDeleteNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+
+            android:src="@android:drawable/ic_menu_delete"
+            android:contentDescription="Notizen löschen (noch nicht aktiv)"
+            app:backgroundTint="@color/purple_500" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabUpdateNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:src="@android:drawable/ic_menu_rotate"
+            android:contentDescription="Notiz aktualisieren"
+            app:backgroundTint="@color/purple_500" />
+    </LinearLayout>
+</FrameLayout>
+
+

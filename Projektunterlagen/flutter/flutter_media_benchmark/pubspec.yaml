@@ -1,0 +1,27 @@
+name: flutter_media_benchmark
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  # Wenn du wirklich Dart 3.7.x installiert hast, ist ^3.7.2 ok.
+  # Falls nicht sicher, nimm eine breitere Spanne:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Lass die Version gern vom Resolver wählen, falls es Konflikte gibt:
+  video_player: ^2.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/video_8mbps.mp4

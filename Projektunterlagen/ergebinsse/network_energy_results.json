@@ -1,0 +1,62 @@
+[
+    {
+        "duration_min": 5,
+        "java_j": 181.27,
+        "flutter_j": 194.79,
+        "ionic_j": 216.07
+    },
+    {
+        "duration_min": 10,
+        "java_j": 362.59,
+        "flutter_j": 386.62,
+        "ionic_j": 413.78
+    },
+    {
+        "duration_min": 15,
+        "java_j": 541.19,
+        "flutter_j": 580.03,
+        "ionic_j": 611.08
+    },
+    {
+        "duration_min": 20,
+        "java_j": 758.88,
+        "flutter_j": 786.35,
+        "ionic_j": 827.25
+    },
+    {
+        "duration_min": 25,
+        "java_j": 940.42,
+        "flutter_j": 966.35,
+        "ionic_j": 1025.44
+    },
+    {
+        "duration_min": 30,
+        "java_j": 1123.68,
+        "flutter_j": 1150.89,
+        "ionic_j": 1225.92
+    },
+    {
+        "duration_min": 35,
+        "java_j": 1314.82,
+        "flutter_j": 1347.22,
+        "ionic_j": 1425.95
+    },
+    {
+        "duration_min": 40,
+        "java_j": 1516.31,
+        "flutter_j": 1541.7,
+        "ionic_j": 1627.11
+    },
+    {
+        "duration_min": 45,
+        "java_j": 1696.38,
+        "flutter_j": 1745.13,
+        "ionic_j": 1793.74
+    },
+    {
+        "duration_min": 50,
+        "java_j": 1875.51,
+        "flutter_j": 1953.05,
+        "ionic_j": 1980.32
+    }
+]
